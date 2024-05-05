@@ -1,0 +1,87 @@
+body {
+    background: rgb(73, 58, 58);
+    width: 100%;
+}
+
+.box-1 {
+    border: 5px solid black;
+    position: relative;
+    top: 150px; width: 1984; left: -7px; height: 345px;
+    background: rgb(132, 95, 51);
+    img {
+        position: relative;
+        top: 50px; left: 50px;
+    }
+    h1 {
+        position: relative;
+        top: -200px; left: 300px; width: 500px;
+        border: 5px solid black;
+    }
+    h2 {
+        position: relative;
+        top: -200px; left: 300px; width: 500px;
+        border: 5px solid black;
+    }
+    p {
+        position: relative;
+        top: -200px; left: 300px; width: 1500px;
+        font-size: 30px;
+        border: 5px solid black;
+    }
+}
+
+.box-2 {
+    border: 5px solid black;
+    position: relative;
+    top: 200px; width: 1984; left: -7px; height: 345px;
+    background: rgb(132, 95, 51);
+    img {
+        position: relative;
+        top: 60px; left: 30px;
+    }
+    h1 {
+        position: relative;
+        top: -170px; left: 350px; width: 500px;
+        border: 5px solid black;
+    }
+    h2 {
+        position: relative;
+        top: -170px; left: 350px; width: 500px;
+        border: 5px solid black;
+    }
+    p {
+        position: relative;
+        top: -170px; left: 350px; width: 1500px;
+        font-size: 30px;
+        border: 5px solid black;
+    }
+}
+
+.box-3 {
+    border: 5px solid black;
+    position: relative;
+    top: 240px; width: 1984; left: -7px; height: 345px;
+    background: rgb(132, 95, 51);
+    img {
+        position: relative;
+        top: 60px; left: 30px;
+    }
+    h1 {
+        position: relative;
+        top: -170px; left: 350px; width: 500px;
+        border: 5px solid black;
+    }
+    h2 {
+        position: relative;
+        top: -170px; left: 350px; width: 500px;
+        border: 5px solid black;
+    }
+    p {
+        position: relative;
+        top: -170px; left: 350px; width: 1500px;
+        font-size: 30px;
+        border: 5px solid black;
+    }
+}
+
+

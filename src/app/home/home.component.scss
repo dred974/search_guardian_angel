@@ -1,0 +1,160 @@
+.First_part {
+    position: relative;
+    top: 70px;
+    left: -8px;
+    width: 1905px;
+    height: 900px;
+    background: linear-gradient(to right, transparent, black), url('../../assets/index.jpg');
+    filter: blur(0px);
+    background-size: cover;
+}
+
+.First_part h1 {
+    z-index: 1;
+    color: yellow;
+    font-size: 65px;
+    position: relative;
+    top: 200px; left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+}
+
+.First_part p {
+    color: white;
+    position: relative;
+    top: 220px; left: 50px;
+    font-size: 30px;
+    font-family: 'MedievalSharp';
+}
+
+.Second_part {
+    position: relative;
+    top: 70px;
+    width: 1905px;
+    height: 750px;
+    left: -8px;
+    background: linear-gradient(to right, black,  bisque);
+}
+
+.Second_part img {
+    position: relative;
+    width: 691px;
+    height: 750px;
+    left: 1213px;
+    filter: blur(1px);
+}
+
+.Second_part h1 {
+    color: rgb(255, 234, 0);
+    position: absolute;
+    top: 55px; left: 100px;
+    font-size: 55px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+
+}
+
+.Second_part p {
+    position: absolute;
+    top: 190px; left: 60px;
+    font-size: 40px;
+    color: white;
+    border-radius: 8px;
+    border: 4px solid rgb(0, 0, 0);
+    font-family: 'MedievalSharp';
+}
+
+.Third_part {
+    background: linear-gradient(to left, transparent, black), url('../../assets/contact-ag.jpg');
+    position: relative;
+    width: 1904px; height: 1300px;
+    top: 70px; left: -8px;
+    background-size: 2500px;
+}
+
+.Third_part img {
+    position: relative;
+    top: 165px; left: 550px;
+    width: 800px;
+    height: 600px;
+}
+
+.Third_part h1 {
+    color: rgb(255, 251, 0);
+    position: absolute;
+    top: 0px; left: 540px;
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Third_part p {
+    color: bisque;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 155px; left: 0px;
+    border-radius: 8px;
+    border: 5px solid rgb(199, 170, 8);
+    font-family: 'MedievalSharp';
+}
+
+.Third_part button {
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    background: linear-gradient(to right, black, rgb(90, 70, 46));
+    border: 3px solid #ffd000;
+    border-radius: 5px;
+    position: relative;
+    width: 500px;
+    top: 190px; left: 700px;
+    font-size: 40px;
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 0);
+        font-family: 'MedievalSharp';
+    }
+}
+
+footer {
+    border: 5px solid black;
+    background: linear-gradient(to left, black, blue, black);
+    border-radius: 5px;
+    position: absolute;
+    top: 3065px; left: 0px;
+    width: 1895px; height: 300px;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        background: black;
+        border: 3px solid yellow;
+        border-radius: 5px;
+        width: 500px;
+        position: relative;
+        top: 0px; left: 700px;
+        color: white;
+    }
+    p {
+        text-align: center;
+        color: whitesmoke;
+        font-size: 30px;
+        border-radius: 5px;
+        border: 5px solid yellow;
+        width: 600px;
+        position: relative;
+        left: 650px; top: 15px;
+        font-family: 'MedievalSharp';
+    }
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        position: relative;
+        left: 650px; top: -5px;
+        font-family: 'MedievalSharp';
+        color: white;
+        border: 5px solid yellow;
+        &:hover {
+            color: greenyellow;
+        }
+        .active {
+            color: green;
+        }
+    }
+}
