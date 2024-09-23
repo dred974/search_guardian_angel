@@ -1,3 +1,5 @@
 # search_guardian_angel
 
-POur lancer le projet, tapez ng serve
+Tout d'abord, installez les dépendences en tapant ceci: npm install.
+
+Pour lancer le projet, tapez ng serve.
